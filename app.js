@@ -11,7 +11,6 @@ function start() {
 		$("body").css("background-color","rgba("+red+","+green+","+blue+","+a+")"); 
 		$("#RGB").html(+red+","+green+","+blue);
 		$("#diese").html("#"+a);
-		
 	});
 };
 start();
